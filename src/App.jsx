@@ -8,7 +8,6 @@ function App() {
 
   useEffect(() => {
     tele.ready();
-    // window.Telegram.WebApp.init({bot_id: '7137435593:AAHgs83gYyb1oVKxZBlvik85TUkRm88utHk', bot_name: 'web_bot'})
   }, []);
 
   const onCheckout = () => {
